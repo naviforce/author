@@ -1,0 +1,79 @@
+body, html {
+    margin:0;
+    padding:auto;
+    text-align: center;
+    font-family: JejuMyeongjo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+}
+
+.smouk {
+    display: flex;
+    background: url(imghom/smouk.png) no-repeat;
+    background-size: contain;
+    width:510px;
+    height:809px;
+    margin:0;
+}
+.book {
+    display: flex;
+    background: url(imghom/book.png) no-repeat;
+    background-size: contain;
+    width:519px;
+    height:739px;
+    margin-left:auto;
+    margin-top: 0 auto;
+}
+.visit {
+    display: flex;
+    flex-direction: column;
+    background: url(imghom/visit.png) no-repeat;
+    background-size: cover;
+    width: 296px;
+    height:186px;
+    margin:auto;
+    margin-top: -411px;
+    justify-content: center;
+    align-items: center;
+}
+.go {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height:50px;
+}
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height:50px;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+.sat {
+    background: url(imghom/sat.png) no-repeat;
+    background-size: contain;
+    width: 90px;
+    height: 250px;
+    margin-left:auto;
+    margin-top:-190px;
+    margin-bottom: 13px;
+
+}
+.ouja {
+    background: url(imghom/ouja.png) no-repeat;
+    background-size: contain;
+    width: 290px;
+    height: 306px;
+    margin-left:auto;
+    margin-bottom: auto;
+}
